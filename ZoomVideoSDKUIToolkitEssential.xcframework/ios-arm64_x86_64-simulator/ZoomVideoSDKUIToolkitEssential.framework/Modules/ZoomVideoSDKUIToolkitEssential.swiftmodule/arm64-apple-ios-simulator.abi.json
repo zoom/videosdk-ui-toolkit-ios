@@ -262,8 +262,7 @@
               "Preconcurrency",
               "Custom",
               "Override",
-              "AccessControl",
-              "Documentation"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -302,8 +301,7 @@
               "Preconcurrency",
               "Custom",
               "Override",
-              "AccessControl",
-              "Documentation"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -336,8 +334,7 @@
               "Preconcurrency",
               "Custom",
               "Override",
-              "AccessControl",
-              "Documentation"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -370,8 +367,7 @@
               "Preconcurrency",
               "Custom",
               "Override",
-              "AccessControl",
-              "Documentation"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -806,7 +802,6 @@
           "Preconcurrency",
           "Custom",
           "AccessControl",
-          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
@@ -8176,98 +8171,6 @@
           },
           {
             "kind": "Function",
-            "name": "onSendFileStatus",
-            "printedName": "onSendFileStatus(_:status:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ZoomVideoSDK.ZoomVideoSDKSendFile?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZoomVideoSDKSendFile",
-                    "printedName": "ZoomVideoSDK.ZoomVideoSDKSendFile",
-                    "usr": "c:objc(cs)ZoomVideoSDKSendFile"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ZoomVideoSDKFileTransferStatus",
-                "printedName": "ZoomVideoSDK.ZoomVideoSDKFileTransferStatus",
-                "usr": "c:@E@ZoomVideoSDKFileTransferStatus"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ZoomVideoSDKUIToolkitEssential@objc(cs)UIToolkitVC(im)onSendFileStatus:status:",
-            "mangledName": "$s30ZoomVideoSDKUIToolkitEssential11UIToolkitVCC16onSendFileStatus_6statusySo0ab7SDKSendI0CSg_So0ab15SDKFileTransferJ0VtF",
-            "moduleName": "ZoomVideoSDKUIToolkitEssential",
-            "objc_name": "onSendFileStatus:status:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onReceiveFileStatus",
-            "printedName": "onReceiveFileStatus(_:status:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ZoomVideoSDK.ZoomVideoSDKReceiveFile?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ZoomVideoSDKReceiveFile",
-                    "printedName": "ZoomVideoSDK.ZoomVideoSDKReceiveFile",
-                    "usr": "c:objc(cs)ZoomVideoSDKReceiveFile"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ZoomVideoSDKFileTransferStatus",
-                "printedName": "ZoomVideoSDK.ZoomVideoSDKFileTransferStatus",
-                "usr": "c:@E@ZoomVideoSDKFileTransferStatus"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@ZoomVideoSDKUIToolkitEssential@objc(cs)UIToolkitVC(im)onReceiveFileStatus:status:",
-            "mangledName": "$s30ZoomVideoSDKUIToolkitEssential11UIToolkitVCC19onReceiveFileStatus_6statusySo0ab10SDKReceiveI0CSg_So0ab15SDKFileTransferJ0VtF",
-            "moduleName": "ZoomVideoSDKUIToolkitEssential",
-            "objc_name": "onReceiveFileStatus:status:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "onUserNameChanged",
             "printedName": "onUserNameChanged(_:)",
             "children": [
@@ -9435,43 +9338,6 @@
             "declKind": "EnumElement",
             "usr": "s:30ZoomVideoSDKUIToolkitEssential16UIToolkitFeatureO4ChatyA2CmF",
             "mangledName": "$s30ZoomVideoSDKUIToolkitEssential16UIToolkitFeatureO4ChatyA2CmF",
-            "moduleName": "ZoomVideoSDKUIToolkitEssential"
-          },
-          {
-            "kind": "Var",
-            "name": "FileTransfer",
-            "printedName": "FileTransfer",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(ZoomVideoSDKUIToolkitEssential.UIToolkitFeature.Type) -> ZoomVideoSDKUIToolkitEssential.UIToolkitFeature",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIToolkitFeature",
-                    "printedName": "ZoomVideoSDKUIToolkitEssential.UIToolkitFeature",
-                    "usr": "s:30ZoomVideoSDKUIToolkitEssential16UIToolkitFeatureO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "ZoomVideoSDKUIToolkitEssential.UIToolkitFeature.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIToolkitFeature",
-                        "printedName": "ZoomVideoSDKUIToolkitEssential.UIToolkitFeature",
-                        "usr": "s:30ZoomVideoSDKUIToolkitEssential16UIToolkitFeatureO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:30ZoomVideoSDKUIToolkitEssential16UIToolkitFeatureO12FileTransferyA2CmF",
-            "mangledName": "$s30ZoomVideoSDKUIToolkitEssential16UIToolkitFeatureO12FileTransferyA2CmF",
             "moduleName": "ZoomVideoSDKUIToolkitEssential"
           },
           {
@@ -11215,14 +11081,14 @@
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/Cores\/AVPreview\/AVPreviewVC.swift",
       "kind": "StringLiteral",
-      "offset": 1386,
+      "offset": 1251,
       "length": 22,
       "value": "\"VBCollectionViewCell\""
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/Cores\/AVPreview\/AVPreviewVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1491,
+      "offset": 1356,
       "length": 5,
       "value": "false"
     },
@@ -12321,133 +12187,133 @@
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 53567,
+      "offset": 53094,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 53633,
+      "offset": 53160,
       "length": 3,
       "value": "243"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 53637,
+      "offset": 53164,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 53649,
+      "offset": 53176,
       "length": 3,
       "value": "243"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 53653,
+      "offset": 53180,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 53664,
+      "offset": 53191,
       "length": 3,
       "value": "243"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 53668,
+      "offset": 53195,
       "length": 3,
       "value": "255"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 53680,
+      "offset": 53207,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 53854,
+      "offset": 53381,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 53905,
+      "offset": 53432,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 53955,
+      "offset": 53482,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 54023,
+      "offset": 53550,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 54069,
+      "offset": 53596,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 54157,
+      "offset": 53684,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 54203,
+      "offset": 53730,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 54372,
+      "offset": 53899,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 54376,
+      "offset": 53903,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 54381,
+      "offset": 53908,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/UIToolkitVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 54430,
+      "offset": 53957,
       "length": 4,
       "value": "true"
     },
@@ -12461,7 +12327,7 @@
     {
       "filePath": "\/Users\/tanboonjun\/ZoomVideoSDKUIKit\/ZoomVideoSDKUIToolkit\/Sources\/Helpers\/FeatureManager.swift",
       "kind": "Array",
-      "offset": 1325,
+      "offset": 1303,
       "length": 2,
       "value": "[]"
     },
@@ -13733,266 +13599,266 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 725,
       "length": 8,
       "value": "\"Adjust\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 855,
       "length": 8,
       "value": "\"Avatar\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 996,
       "length": 14,
       "value": "\"Avatar-Clear\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1132,
       "length": 8,
       "value": "\"Camera\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1258,
       "length": 6,
       "value": "\"Chat\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1395,
       "length": 13,
       "value": "\"Chat-Border\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1542,
       "length": 14,
       "value": "\"ChatDisabled\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1680,
       "length": 9,
       "value": "\"ChatNew\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1817,
       "length": 11,
       "value": "\"Checkmark\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1960,
       "length": 13,
       "value": "\"ChevronDown\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2105,
       "length": 13,
       "value": "\"ChevronLeft\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2252,
       "length": 14,
       "value": "\"ChevronRight\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2386,
       "length": 7,
       "value": "\"Cross\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2511,
       "length": 6,
       "value": "\"Edit\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2643,
       "length": 10,
       "value": "\"Ellipsis\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2773,
       "length": 7,
       "value": "\"Emoji\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2896,
       "length": 5,
       "value": "\"Mic\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3024,
       "length": 9,
       "value": "\"Mic-100\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3154,
       "length": 8,
       "value": "\"Mic-33\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3283,
       "length": 8,
       "value": "\"Mic-66\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3424,
       "length": 14,
       "value": "\"Mic-Disabled\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3584,
       "length": 21,
       "value": "\"Mic-Disabled-NoFill\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3734,
       "length": 12,
       "value": "\"Mic-NoFill\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3866,
       "length": 7,
       "value": "\"Phone\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3995,
       "length": 8,
       "value": "\"Record\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4121,
       "length": 6,
       "value": "\"Send\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4251,
       "length": 9,
       "value": "\"Setting\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4392,
       "length": 13,
       "value": "\"ShareScreen\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4533,
       "length": 11,
       "value": "\"ShareStop\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4662,
       "length": 6,
       "value": "\"Team\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4797,
       "length": 12,
       "value": "\"VB-Blurred\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4934,
       "length": 10,
       "value": "\"VB-Grass\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5067,
       "length": 9,
       "value": "\"VB-None\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5196,
       "length": 7,
       "value": "\"Video\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5340,
       "length": 16,
       "value": "\"Video-Disabled\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5506,
       "length": 23,
       "value": "\"Video-Disabled-NoFill\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5662,
       "length": 14,
       "value": "\"Video-NoFill\""
     },
     {
-      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkitEssential\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/tanboonjun\/Library\/Developer\/Xcode\/DerivedData\/ZoomVideoSDKUIToolkit-cwpfqkslnjjpbeedwvkxlnintjwu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZoomVideoSDKUIToolkit\/IntermediateBuildFilesPath\/ZoomVideoSDKUIToolkit.build\/Release-iphonesimulator\/ZoomVideoSDKUIToolkitEssential.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5820,
       "length": 19,
