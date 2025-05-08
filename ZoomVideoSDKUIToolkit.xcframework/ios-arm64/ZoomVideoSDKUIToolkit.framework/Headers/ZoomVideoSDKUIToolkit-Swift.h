@@ -311,7 +311,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSString;
 @class NSBundle;
 
-/// [Default View] The AV Preview view controller manages and shows the local user’s video and audio (microphone and speaker) preview.
 SWIFT_CLASS("_TtC21ZoomVideoSDKUIToolkit11AVPreviewVC")
 @interface AVPreviewVC : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
@@ -566,8 +565,6 @@ SWIFT_CLASS("_TtC21ZoomVideoSDKUIToolkit11UIToolkitVC")
 @class ZoomVideoSDKShareAction;
 @class ZoomVideoSDKChatHelper;
 @class ZoomVideoSDKChatMessage;
-@class ZoomVideoSDKSendFile;
-@class ZoomVideoSDKReceiveFile;
 @class ZoomVideoSDKLiveStreamHelper;
 @class ZoomVideoSDKRecordAgreementHandler;
 @class ZoomVideoSDKLiveTranscriptionMessageInfo;
@@ -587,8 +584,6 @@ SWIFT_CLASS("_TtC21ZoomVideoSDKUIToolkit11UIToolkitVC")
 - (void)onUserActiveAudioChanged:(ZoomVideoSDKUserHelper * _Nullable)helper users:(NSArray<ZoomVideoSDKUser *> * _Nullable)userArray;
 - (void)onChatNewMessageNotify:(ZoomVideoSDKChatHelper * _Nullable)helper message:(ZoomVideoSDKChatMessage * _Nullable)chatMessage;
 - (void)onChatPrivilegeChanged:(ZoomVideoSDKChatHelper * _Nullable)helper privilege:(ZoomVideoSDKChatPrivilegeType)currentPrivilege;
-- (void)onSendFileStatus:(ZoomVideoSDKSendFile * _Nullable)file status:(ZoomVideoSDKFileTransferStatus)status;
-- (void)onReceiveFileStatus:(ZoomVideoSDKReceiveFile * _Nullable)file status:(ZoomVideoSDKFileTransferStatus)status;
 - (void)onUserNameChanged:(ZoomVideoSDKUser * _Nullable)user;
 - (void)onUserHostChanged:(ZoomVideoSDKUserHelper * _Nullable)helper users:(ZoomVideoSDKUser * _Nullable)user;
 - (void)onUserManagerChanged:(ZoomVideoSDKUser * _Nullable)user;
